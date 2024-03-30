@@ -21,6 +21,7 @@ import java.io.IOException;
 public class AskrifandiDialog extends Dialog<Askrifandi> {
 
     // viðmótshlutur
+    // Testing
     @FXML
     protected TextField fxNafn; // nafnið á áskrifanda
 
