@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="175.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <ButtonType  buttonData="OK_DONE" text="Í lagi" />
+   <ButtonType  buttonData="CANCEL_CLOSE" text="Hætta við" />
+   <content>
+      <VBox prefHeight="114.0" prefWidth="340.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="320.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="160.0" text="Nafn" />
+                  <TextField fx:id="fxNafn" prefHeight="25.0" prefWidth="179.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</DialogPane>

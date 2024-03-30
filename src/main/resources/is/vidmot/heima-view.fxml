@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="155.0" prefWidth="254.0" spacing="20.0" stylesheets="@css/player.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.PlayerController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <HBox prefHeight="25.0" prefWidth="191.0">
+        <children>
+            <Button fx:id="fxAskrifandi" alignment="BASELINE_CENTER" mnemonicParsing="false" onAction="#onLogin" prefHeight="25.0" prefWidth="86.0" text="Áskrifandi">
+            <HBox.margin>
+               <Insets left="6.0" />
+            </HBox.margin></Button>
+        </children>
+      <VBox.margin>
+         <Insets left="6.0" />
+      </VBox.margin>
+    </HBox>
+    <GridPane fx:id="fxGrid" hgap="10.0" vgap="10.0">
+        <columnConstraints>
+            <ColumnConstraints minWidth="50.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="50.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        </rowConstraints>
+        <children>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#onVeljaLista" prefHeight="30.0" prefWidth="52.0" styleClass="image-button" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <graphic>
+                    <ImageView fitHeight="22.0" fitWidth="89.0" pickOnBounds="true">
+                        <image>
+                            <Image url="@media/random.jpg" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button onAction="#onVeljaLista" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="22.0" prefWidth="89.0" styleClass="image-button" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <graphic>
+                    <ImageView fitHeight="22.0" fitWidth="89.0" pickOnBounds="true">
+                        <image>
+                            <Image url="@media/cover1.jpg" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button onAction="#onVeljaLista" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="90.0" styleClass="image-button" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fitHeight="22.0" fitWidth="89.0" pickOnBounds="true">
+                        <image>
+                            <Image url="@media/cover2.jpg" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button  onAction="#onVeljaLista" layoutX="10.0" layoutY="50.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="90.0" styleClass="image-button" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fitHeight="22.0" fitWidth="89.0" pickOnBounds="true">
+                        <image>
+                            <Image url="@media/cover3.jpg" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+        </children>
+    </GridPane>
+</VBox>
