@@ -1,4 +1,4 @@
-package is.vidmot;
+git package is.vidmot;
 /******************************************************************************
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
