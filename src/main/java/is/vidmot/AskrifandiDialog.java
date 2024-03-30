@@ -22,6 +22,7 @@ public class AskrifandiDialog extends Dialog<Askrifandi> {
 
     // viðmótshlutur
     // Testing
+    // Testing more
     @FXML
     protected TextField fxNafn; // nafnið á áskrifanda
 
